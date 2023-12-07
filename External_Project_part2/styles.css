@@ -1,0 +1,137 @@
+/*
+    Student Name: Bryce Woodruff
+    Student ID: 7846007
+	File Name: styles.css
+    Class: IMED 1316
+*/
+.hero {
+    background-image: linear-gradient(rgba(0, 0, 0, 2.5), rgba(255, 0, 0, 0.7));
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: left;
+}
+h1{
+    font-weight: bold;
+}
+
+h2{
+    font-size: 45px;
+    font-weight: bold;
+}
+
+.jumbotron {
+    padding: 1rem; /* Adjust the padding as needed */
+}
+
+ p, li{
+    font-size: 25px;
+    padding: 15px;
+ }
+ .right {
+    float: right;
+    margin: 10px; /* Optional: adjust the margin if needed */
+}
+.welcome {
+    margin-top: 10%;
+}
+ 
+.bg-black {
+    background-color: #000000;
+}
+ 
+footer {
+    background-image: linear-gradient(rgba(255, 0, 0, 0.7), rgba(0, 0, 0, 2.5));
+}
+.text-white {
+    color: #ffffff;
+}
+.form_header{
+    text-align: center;
+    font-size: 50px;
+}
+
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.container {
+  border-radius: 5px;
+  padding: 20px;
+}
+.product{
+    font-size: 40px;
+    font-weight: bold;
+}
+.quantity{
+    font-size: 35px;
+    font-weight: bold;
+}
+.OOS{
+    font-size: 35px;
+    color: red;
+    font-weight: bold;
+    text-align: center;
+}
+.desc{
+    font-size: 15px;
+}
+
+@media only screen and (max-width: 600px) {
+  .title {
+      height: 125px;
+      flex-direction: column;
+  }
+
+  .title-text {
+      font-size: 2em;
+      margin: 0; /* Remove the left margin */
+  }
+
+  .tagline {
+      font-size: 1.5em;
+      margin: 0;
+  }
+
+  table {
+      font-size: 10px;
+      margin-top: 10px;
+  }
+
+  th, td {
+      padding: 6px; 
+  }
+
+  .first, .second, .third, .rank {
+      font-size: 25px;
+  }
+
+  .wide-column {
+      width: 40%; 
+  }
+
+  img {
+      max-width: 50px; 
+      height: auto;
+  }
+}
